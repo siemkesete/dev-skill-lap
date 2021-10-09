@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    align-items: center;
+
+}
+
+.skill {
+    color: aquamarine;
+    text-align: center;
+
+}
+
+.label-box {
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+
+}
+ .label-box > span{
+     display: inline-flex;
+     cursor: pointer;
+     position: relative;
+ }
+
+ .label-box > .check {
+     width: 50px;
+     height: 50px;
+     margin: 10px;
+ }
+
+ #last-row {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+ }
+
+ #last-row > button {
+     width: 18px;
+ }
